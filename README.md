@@ -10,7 +10,7 @@ Based on **JAudiotagger** library.
 ## Add dependency
 ```yaml
 dependencies:
-  audiotagger: ^2.2.1
+  audiotagger: ^1.0.0
 ```
 Audiotagger need access to read and write storage.  \
 To do this you can use [Permission Handler library](https://pub.dev/packages/permission_handler).
@@ -242,10 +242,8 @@ bool? isVariableBitRate;
 ```
 
 ## Copyright and license
-This library is developed and maintained by Nicolò Rebaioli  
-:globe_with_meridians: [My website](https://rebaioli.altervista.org)  
-:mailbox: [niko.reba@gmail.com](mailto:niko.reba@gmail.com)
+This library is developed and maintained by Gian Luca Grillo Marques But is fork base with https://pub.dev/packages/audiotagger
 
 Released under [MIT license](LICENSE)
 
-Copyright 2021 Nicolò Rebaioli
+Copyright 2024 Gian Luca Grillo Marques

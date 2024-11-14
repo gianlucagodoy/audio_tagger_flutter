@@ -1,10 +1,10 @@
 import 'dart:typed_data';
 
-import 'package:audiotagger/models/audiofile.dart';
-import 'package:audiotagger/models/tag.dart';
+import 'package:audio_tagger_flutter/models/audiofile.dart';
+import 'package:audio_tagger_flutter/models/tag.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:audiotagger/audiotagger.dart';
+import 'package:audio_tagger_flutter/audiotagger.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

@@ -10,7 +10,10 @@ Based on **JAudiotagger** library.
 ## Add dependency
 ```yaml
 dependencies:
-  audiotagger: ^1.0.0
+  audio_tagger_flutter: 
+    git:
+       url: https://github.com/gianlucagodoy/audio_tagger_flutter.git
+       ref: 1.0.1
 ```
 Audiotagger need access to read and write storage.  \
 To do this you can use [Permission Handler library](https://pub.dev/packages/permission_handler).
